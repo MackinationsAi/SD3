@@ -1,6 +1,6 @@
 # SD3 Image Generator _ API-Call Streamlit WebUI
 
-![SD3_WebUI screenshot](SD3/docs/SD3 · Streamlit_UI-example.png)
+![SD3 · Streamlit_UI-example](https://github.com/MackinationsAi/SD3/assets/133395980/11d85c29-c41e-406c-b3b0-592b2b0527d2)
 
 ## Install
 
