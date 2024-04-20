@@ -22,6 +22,8 @@ You need to already have or make a [Stability.Ai account](https://platform.stabi
 - both text-to-image & image-to-image modes work
 - api key, prompts & seed are remembered throughout the whole session (unless you change them), so you can now move between your gallery and main sd3 page w/o having to worry
 
+*Live Huggingface Space to generate on the go! [MackinationsAi/SD3_WebUi](https://huggingface.co/spaces/MackinationsAi/SD3_WebUi)*
+
 ## WebUI
 
 ![SD3_webui_image](https://github.com/MackinationsAi/SD3/assets/133395980/f327aef6-2e61-46e7-8d34-7ea02331df79)
