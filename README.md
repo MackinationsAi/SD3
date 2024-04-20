@@ -16,7 +16,7 @@ Once downloaded, click the install.bat file, then click the run_SD3.bat file & y
 
 Once downloaded, click the install.sh file, then click the run_SD3.sh file & you'll be good to go.
 
-You need to have a Stability.Ai account to get a SAI API Key.
+You need to already have or make a [Stability.Ai account](https://platform.stability.ai/) to get a [SAI API Key](https://platform.stability.ai/account/keys) to generate SD3 Images.
 
 *Release Notes*
 - both text-to-image & image-to-image modes work
