@@ -48,7 +48,7 @@ def generate_image(api_key, prompt, aspect_ratio, mode, model, seed, output_form
     return response
 
 def main():
-    st.image("static/SD3_webui_logo_image.png", width=700)
+    st.image("static/SD3_webui_logo_image.png", use_column_width=True)
     
     if 'api_key' not in st.session_state:
         st.session_state.api_key = ""
