@@ -22,4 +22,6 @@ You need to have a Stability.Ai account to get a SAI API Key.
 - both text-to-image & image-to-image modes work
 - api key, prompts & seed are remembered throughout the whole session (unless you change them), so you can now move between your gallery and main sd3 page w/o having to worry
 
-![SD3 · Streamlit_UI-example](https://github.com/MackinationsAi/SD3/assets/133395980/11d85c29-c41e-406c-b3b0-592b2b0527d2)
+## WebUI
+
+![SD3_webui_image](https://github.com/MackinationsAi/SD3/assets/133395980/f327aef6-2e61-46e7-8d34-7ea02331df79)
