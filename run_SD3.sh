@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Pull the latest updates from the remote repository
+git pull
+
 # Activate the virtual environment
 source venv/bin/activate
 
