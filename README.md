@@ -10,13 +10,31 @@ Clone this repository to anywhere on your system.
 
 ### *Windows*
 
+[Prerequisites: [python ≥ 3.10](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe) & [git](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe)]
+
 Once downloaded, click the install.bat file, then click the run_SD3.bat file & you'll be good to go.
 
 ### *MacOS*
 
-Once downloaded, click the install.sh file, then click the run_SD3.sh file & you'll be good to go.
+[Prerequisites: [python3 ≥ 3.10](https://www.python.org/ftp/python/3.10.11/python-3.10.11-macos11.pkg), [homebrew](https://github.com/Homebrew/brew/releases/download/4.2.19/Homebrew-4.2.19.pkg) (follow the installation steps found [here](https://docs.brew.sh/Installation)]
 
-You need to already have or make a [Stability.Ai account](https://platform.stability.ai/) to get a [SAI API Key](https://platform.stability.ai/account/keys) to generate SD3 Images.
+Now that homebrew & python3 installed on your machine (if they weren't already), open your main terminal & run the following command to install git, bash & pyenv then close terminal:
+
+    brew install git bash pyenv
+
+Navigate to your SD3 folder & right-click on it. At the bottom of the pop-up menu you will see 'New Terminal at Folder' click on it. Terminal will be open at your 
+    
+    sed -i -e 's/\r$//' install.sh run_SD3.sh
+    sudo chmod 755 install.sh run_SD3.sh
+    bash install.sh
+    
+This will correct any errors when running .sh scripts made on windows, grant executable premissions for both .sh scripts & install everything need to run this repo. Upon completion terminal will close. Reopen terminal using the same method as above, & run the following command:
+    
+    bash run_SD3.sh
+    
+You will be prompted in terminal by Streamlit for your email, just hit enter to ignore it & you'll be good to go. The SD3_WebUI will automatically open in your default browser, Happy Generating!
+
+*A Stability.Ai [account](https://platform.stability.ai/) is needed to get a [SAI API Key](https://platform.stability.ai/account/keys) in order to generate SD3 Images.*
 
 *Release Notes*
 - both text-to-image & image-to-image modes work
