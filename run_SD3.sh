@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Pull the latest updates from the remote repository
 git pull
