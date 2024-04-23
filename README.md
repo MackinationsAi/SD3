@@ -10,13 +10,13 @@ Clone this repository to anywhere on your system.
 
 ### *Windows*
 
-[Prerequisites: [python ≥ 3.10](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe) & [git](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe)]
+[Prerequisites: [python ≥ 3.10](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe) & [git](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe) ]
 
 Once downloaded, click the install.bat file, then click the run_SD3.bat file & you'll be good to go.
 
 ### *MacOS*
 
-[Prerequisites: [python3 ≥ 3.10](https://www.python.org/ftp/python/3.10.11/python-3.10.11-macos11.pkg), [homebrew](https://github.com/Homebrew/brew/releases/download/4.2.19/Homebrew-4.2.19.pkg) (follow the installation steps found [here](https://docs.brew.sh/Installation)]
+[Prerequisites: [python3 ≥ 3.10](https://www.python.org/ftp/python/3.10.11/python-3.10.11-macos11.pkg) & [homebrew](https://github.com/Homebrew/brew/releases/download/4.2.19/Homebrew-4.2.19.pkg) (follow the installation steps found [here](https://docs.brew.sh/Installation) ]
 
 Now that homebrew & python3 installed on your machine (if they weren't already), open your main terminal & run the following command to install git, bash & pyenv then close terminal:
 
